@@ -6,7 +6,7 @@ function NavSection() {
   $nav.classList.add("nav-sections");
 
   $nav.innerHTML = `
-    <a href="#reloj">Reloj Digital</a>
+    <a href="#seccion_1">Reloj Digital y Alarma Sonora</a>
   `;
 
   setTimeout(() => {

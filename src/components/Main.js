@@ -1,4 +1,4 @@
-import RelojDigital from "./sections/RelojDigital";
+import RelojDigital from "./sections/reloj_digital/RelojDigital";
 
 function Main() {
   const d = document,
