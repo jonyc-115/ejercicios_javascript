@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+:root {
+  --main-color: #f7df1e;
+}
+
+header {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+.menu {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.menu img {
+  width: 50%;
+}
